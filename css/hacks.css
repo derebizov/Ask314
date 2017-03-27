@@ -1,0 +1,5 @@
+﻿.ie .navbar-brand,
+.ie .navbar .form-inline,
+.ie .navbar-nav .nav-item {
+    height: 5rem;
+}

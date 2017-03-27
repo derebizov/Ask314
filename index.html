@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ask314.com</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/hacks.css" />
+    <link rel="stylesheet" href="js/datepicker/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/glyphter/css/Glyphter.css" />
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="js/datepicker/locales/bootstrap-datepicker.ru.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand icon-logo" href="javascript:;"></a>
+            <span class="navbar-toggler hidden-xl-up" aria-hidden="true" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </span>
+
+            <div class="collapse navbar-toggleable-lg" id="navbarResponsive">
+                <div class="container">
+
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Карма, призвание, поведение
+                                <i class="icon icon-karma"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="http://google.com/">Все о карме</a>
+                                <a class="dropdown-item" href="javascript:;">Кармическая задача</a>
+                                <a class="dropdown-item" href="javascript:;">Призвание</a>
+                                <a class="dropdown-item" href="javascript:;">Модель поведения</a>
+                                <a class="dropdown-item" href="javascript:;">Самооценка</a>
+                                <a class="dropdown-item" href="javascript:;">Номера домов</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Этапы и годы
+                                <i class="icon icon-hourglass"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Вехи судьбы</a>
+                                <a class="dropdown-item" href="javascript:;">Время кризиса и успеха</a>
+                                <a class="dropdown-item" href="javascript:;">Смысл года</a>
+                                <a class="dropdown-item" href="javascript:;">Символ года</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Деньги и удача
+                                <i class="icon icon-money"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Роль денег в жизни</a>
+                                <a class="dropdown-item" href="javascript:;">Число внимания и удачи</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Отношения и партнерство
+                                <i class="icon icon-relations"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Сексуальный психотип</a>
+                                <a class="dropdown-item" href="javascript:;">Отношение к браку</a>
+                                <a class="dropdown-item" href="javascript:;">Причина встречи</a>
+                                <a class="dropdown-item" href="javascript:;">Характер взаимодействия</a>
+                                <a class="dropdown-item" href="javascript:;">Структура партнерства</a>
+                                <a class="dropdown-item" href="javascript:;">Сексуальная совместимость</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Квадрат пифагора
+                                <i class="icon icon-square"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Расчет квадрата</a>
+                                <a class="dropdown-item" href="javascript:;">Кто вы?</a>
+                                <a class="dropdown-item" href="javascript:;">Как понять свой интерес?</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                Медиатека и статьи
+                                <i class="icon icon-media"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Аудиоответы на вопросы</a>
+                                <a class="dropdown-item" href="javascript:;">Радиошоу</a>
+                                <a class="dropdown-item" href="javascript:;">Статьи</a>
+                                <a class="dropdown-item" href="javascript:;">Письма пользователей</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline float-xl-right dropdown">
+                        <a class="user-link icon-user dropdown-toggle" data-toggle="dropdown" href="javascript:;"></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-item title">Марта закревская</div>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-item"><a href="javascript:;">Личный кабинет</a></div>
+                            <div class="dropdown-item"><a href="javascript:;">(7.45$) | Пополнить баланс</a></div>
+                            <div class="dropdown-item"><a href="javascript:;">История расчетов</a></div>
+                            <div class="dropdown-item"><a href="javascript:;">Выход</a></div>
+                        </div>
+                        <div class="mobile">
+                            <a class="nav-link" href="javascript:;">Марта закревская | Профиль</a>
+                            <a class="nav-link" href="javascript:;">(7.45$) | Пополнить баланс</a>
+                            <a class="nav-link" href="javascript:;">История расчетов</a>
+                            <a class="nav-link" href="javascript:;">Выход</a>
+                        </div>
+                    </form>
+
+                </div><!-- /.container -->
+            </div>
+
+        </div><!-- /.container -->
+    </nav>
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="container">
+
+        <div class="layout-row row">
+            <div class="layout-center col-xs-12 col-md-12 col-lg-6 flex-sm-unordered flex-md-first flex-lg-unordered">
+
+                <h5 class="layout-column-header">
+                    Характер дня
+                    <a href="javascript:;" class="fa fa-info-circle" aria-hidden="true"></a>
+                </h5>
+                <div class="tags">
+                    <a href="javascript:;">Полнолуние 15</a>
+                    <a href="javascript:;">Контрольный день</a>
+                    <a href="javascript:;">Время успеха</a>
+                </div>
+                <div class="box">
+                    <header>
+                        <ul class="tools">
+                            <li class="nav-item dropdown calendar">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <u>24.04.2015</u>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="datepicker"></div>
+                                    <a href="javascript:;" class="subscribe">Оформить подписку на характер дня</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown periods">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    <u>00:00-19:26</u>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="period">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <u>00:00-19:26</u>
+                                        <div class="text">( лунный день 16, солнечный день 11 )</div>
+                                    </div>
+                                    <div class="period">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <u>00:00-19:26</u>
+                                        <div class="text">( лунный день 16, солнечный день 11 )</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown location">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <u>Киев, Украина</u>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <input type="text" class="form-control" placeholder="введите свое местоположение" />
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown subscription">
+                                <a class="nav-link" href="javascript:;"><u>Подписаться</u></a>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <div class="content-area">
+                        <p>
+                            День кризисный ситуаций, острых проблем, требующих немедленного решения.
+                            Необходимо все делать быстро, молниеносно. Нельзя действовать по плану. Принимайте все,
+                            что дает Жизнь сегодня и «включайте мозги». Важно обдумать всё, что удивило вас, заставило
+                            всерьез задуматься.
+                        </p>
+                        <ul>
+                            <li>
+                                <b>Эмоции</b><br />
+                                Эмоциональный настрой дня полностью зависит от нас: мы можем как подняться до понимания
+                                Высшей любви ко всему сущему, так и опуститься до низменных желаний и животных влечений.
+                                Нельзя проявлять злобность, зависть и агрессивность. У некоторых людей может обостриться
+                                чувство одиночества, покинутости и недовольства миром.
+                            </li>
+                            <li>
+                                <b>Начинания</b><br />
+                                Хороший период для начала учебного процесса и самообразования. Нельзя лениться и унывать.
+                                Можно принимать гостей, делать подарки, проводить время с семьей. Уборка квартиры не
+                                возбраняется. Откажитесь от заключения брака. Не рекомендуется работать с землей.
+                            </li>
+                            <li>
+                                <b>Бизнес</b><br />
+                                Лучшее время для «мозгового штурма», когда можно понять причины возникающих ситуаций и
+                                авралов. При любых ситуациях необходимо соблюдать спокойствие и уравновешенность, ни в коем
+                                случае не срываться на крик и не проявлять агрессивных эмоций. В делах требуется оперативное
+                                реагирование. Не пытайтесь воплотить в жизнь все, что наметили на этот день ранее.
+                            </li>
+                            <li>
+                                <b>Личная жизнь</b><br />
+                                Исключите любые сексуальные приключения и случайные связи. Справляйтесь с проблемами по
+                                мере их поступления. Подумайте о том, чему учат вас отношения.
+                            </li>
+                            <li>
+                                <b>Знаки судьбы</b><br />
+                                Проявившееся заболевание - признак неправильности мышления. На это же указывает грязь,
+                                липнущая к одежде. Необходимо пересмотреть свои взгляды, чтобы выйти на правильный путь.
+                                Агрессивные действия, злобные слова и мысли могут стать причиной заболевания. Увидеть, найти,
+                                приобрести двусторонний деревянный гребень - значит, вам необходимо сконцентрироваться и
+                                направить энергию в нужное (созидательное) русло.Прекрасно если с самого утра солнечная погода.
+                                Выйдя с утра из дома, вы услышали детский смех или увидели, как играют дети – знак здоровья,
+                                комфорта и материального благополучия. Птица залетела в дом, даже если это бумажный голубь –
+                                вас ожидает приятный сюрприз, успех.Попасть под град – вас лишат поддержки. Оторвалась
+                                пуговица, сломалась молния – к болезни. Разбить случайно стекло – знак надвигающего
+                                одиночества, потере друзей, близких. Сломалась дверь, замок или ключ – разорение дома,
+                                возможная смерть кого-то в роду.
+                            </li>
+                            <li>
+                                <b>Сновидения</b><br />
+                                Сны не несут никакой важной информации, но если вам приснится тревожный сон, это сигнал о том,
+                                что у вас есть внутренний дискомфорт и вам необходимо расслабиться.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-code">
+                    Код дня: 15 6 11 2
+                    <a href="javascript:;" class="fa fa-info-circle" aria-hidden="true"></a>
+                </div>
+            </div>
+
+            <div class="layout-left col-xs-12 col-md-6 col-lg-3 flex-sm-unordered flex-md-unordered  flex-lg-first">
+                <h5 class="layout-column-header">Жанна говорит</h5>
+
+                <div class="box zhanna-speak">
+
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+
+                                1 Почему на работу берут лишь тех, у кого есть диплом об образовании?
+                                Потому что эти люди уже научились прогибаться под кого-то и ломать себя во имя мечты.
+                                Но мечту воплощают лишь те, кто не сломался!
+
+                            </div>
+                            <div class="carousel-item">
+
+                                2 Почему на работу берут лишь тех, у кого есть диплом об образовании?
+                                Потому что эти люди уже научились прогибаться под кого-то и ломать себя во имя мечты.
+                                Но мечту воплощают лишь те, кто не сломался!
+                                
+                            </div>
+                            <div class="carousel-item">
+
+                                3 Почему на работу берут лишь тех, у кого есть диплом об образовании?
+                                Потому что эти люди уже научились прогибаться под кого-то и ломать себя во имя мечты.
+                                Но мечту воплощают лишь те, кто не сломался!
+
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <i class="fa fa-caret-left" aria-hidden="true"></i>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="tree-leaves" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#budda-tab-1" role="tab" aria-controls="budda-tab-1">Работа</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#budda-tab-2" role="tab" aria-controls="budda-tab-2">Личная жизнь</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#budda-tab-3" role="tab" aria-controls="budda-tab-3">Создать семью</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#budda-tab-4" role="tab" aria-controls="budda-tab-4">Переезд</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#budda-tab-5" role="tab" aria-controls="budda-tab-5">Для чего вы пришли?</a>
+                    </li>
+                </ul>
+                <div class="box text-size-xs tab-content">
+                    <div class="tab-pane fade in active" id="budda-tab-1" role="tabpanel">
+                        <p>- Стоит ли менять работу?</p>
+                        <p>- Какие у вас перспективы на новом месте?</p>
+                        <p>- Для чего вы пришли на эту должность?</p>
+                        <p>- Почему не развивается бизнес или не можете найти достойную работу?</p>
+                        <div>- Стоит ли ждать финансового успеха от выбранного вами дела?</div>
+                    </div>
+                    <div class="tab-pane fade" id="budda-tab-2" role="tabpanel">Личная жизнь</div>
+                    <div class="tab-pane fade" id="budda-tab-3" role="tabpanel">Создать семью</div>
+                    <div class="tab-pane fade" id="budda-tab-4" role="tabpanel">Переезд</div>
+                    <div class="tab-pane fade" id="budda-tab-5" role="tabpanel">Для чего вы пришли?</div>
+                </div>
+            </div>
+
+            <div class="layout-right col-xs-12 col-md-6 col-lg-3 flex-sm-last flex-md-last  flex-lg-last">
+                <h5 class="layout-column-header">Медиатека</h5>
+                <div class="box">
+
+                    <header class="next-live">
+                        <a href="javascript:;">
+                            Следующий прямой эфир<br />
+                            <b>Воскресенье 28.02 14:00</b>
+                        </a>
+                    </header>
+
+                    <br />
+
+                    <header class="next-live">
+                        <a href="javascript:;">
+                            <i class="fa fa-play" aria-hidden="true"></i><b>Прямой эфир</b><i class="fa fa-podcast" aria-hidden="true"></i>
+                        </a>
+                    </header>
+
+                    <div class="article">
+                        <div class="title">
+                            <a href="javascript:;">Аудиоответы на вопросы</a>
+                        </div>
+                        <div class="text audio">
+                            <a href="javascript:;">«Любовь и без любви» - 2 брака</a>
+                        </div>
+                        <div class="date">25.02.2016</div>
+                        <div class="text audio">
+                            <a href="javascript:;">2 слова о том как проходит эволюция человечества и как стать богатым и знаменитым&hellip;</a>
+                        </div>
+                        <div class="date">02.01.2016</div>
+                        <div class="see-all">
+                            <a href="javascript:;">Посмотреть все</a>
+                        </div>
+                    </div>
+
+                    <div class="article">
+                        <div class="title">
+                            <a href="javascript:;">Аудиоответы на вопросы</a>
+                        </div>
+                        <div class="text audio">
+                            <a href="javascript:;">«Любовь и без любви» - 2 брака</a>
+                        </div>
+                        <div class="date">25.02.2016</div>
+                        <div class="text audio">
+                            <a href="javascript:;">2 слова о том как проходит эволюция человечества и как стать богатым и знаменитым&hellip;</a>
+                        </div>
+                        <div class="date">02.01.2016</div>
+                        <div class="see-all">
+                            <a href="javascript:;">Посмотреть все</a>
+                        </div>
+                    </div>
+
+                    <div class="article">
+                        <div class="title">
+                            <a href="javascript:;">Аудиоответы на вопросы</a>
+                        </div>
+                        <div class="text audio">
+                            <a href="javascript:;">«Любовь и без любви» - 2 брака</a>
+                        </div>
+                        <div class="date">25.02.2016</div>
+                        <div class="text audio">
+                            <a href="javascript:;">2 слова о том как проходит эволюция человечества и как стать богатым и знаменитым&hellip;</a>
+                        </div>
+                        <div class="date">02.01.2016</div>
+                        <div class="see-all">
+                            <a href="javascript:;">Посмотреть все</a>
+                        </div>
+                    </div>
+
+                </div>
+                <h5 class="layout-column-header">Статьи и письма</h5>
+                <div class="box">
+                    <header>
+
+                        <div class="article">
+                            <div class="author">
+                                <b>Автор:</b> Денис Захаров
+                            </div>
+                            <div class="text audio">
+                                <a href="javascript:;">2 слова о том как проходит эволюция человечества и как стать богатым и знаменитым&hellip;</a>
+                            </div>
+
+                            <div class="date">02.01.2016</div>
+                            <div class="details">
+                                <a href="javascript:;">5 комментариев</a>
+                            </div>
+                        </div>
+
+                    </header>
+
+                    <div class="article">
+                        <div class="title">
+                            <a href="javascript:;">Письма пользователей</a>
+                        </div>
+                        <div class="text audio">
+                            <a href="javascript:;">2 слова о том как проходит эволюция человечества и как стать богатым и знаменитым&hellip;</a>
+                        </div>
+                        <div class="date">02.01.2016</div>
+                        <div class="details">
+                            <a href="javascript:;">5 комментариев</a>
+                        </div>
+                        <div class="see-all">
+                            <a href="javascript:;">Посмотреть все</a>
+                        </div>
+                    </div>
+
+                    <footer>
+                        <a class="contact-us" href="javascript:;">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            Напишите нам
+                        </a>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+
+    <footer class="footer">
+        <div class="container">
+            <a class="icon-logo" href="javascript:;"></a>
+            <nav class="navigation">
+                <span class="separator">
+                    <a class="nav-link" href="javascript:;">О Цифрологии</a>
+                    <a class="nav-link" href="javascript:;">О сайте</a>
+                    <a class="nav-link" href="javascript:;">Словарь терминов</a>
+                </span>
+                <span class="separator">
+                    <a class="nav-link" href="javascript:;">Пользовательское соглашение</a>
+                    <a class="nav-link" href="javascript:;">Политика конфиденциальности</a>
+                    <a class="nav-link" href="javascript:;">Обратная связь</a>
+                </span>
+            </nav>
+            <div class="social">
+                <a href="javascript:;" class="fa fa-google-plus" aria-hidden="true"></a>
+                <a href="javascript:;" class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="javascript:;" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="javascript:;" class="fa fa-vk" aria-hidden="true"></a>
+                <a href="javascript:;" class="fa fa-odnoklassniki" aria-hidden="true"></a>
+                <a href="javascript:;" class="fa fa-youtube" aria-hidden="true"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
